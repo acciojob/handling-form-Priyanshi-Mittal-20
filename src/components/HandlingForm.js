@@ -11,9 +11,9 @@ const HandlingForm = () => {
     console.log("value changed: ",input)
   },[input])
   return (
-    <div>
+    <form>
       <input type="text" value={input} onChange={(e)=>handleInput(e)} />
-    </div>
+    </form>
   )
 }
 
